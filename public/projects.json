@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "id": "01",
+      "title": "total main floor makeover",
+      "img": "/images/rogelsky-renovation-thumbnail.png",
+      "url": "total-main-floor-makeover"
+    },
+    {
+      "id": "02",
+      "title": "from classic to contemporany",
+      "img": "/images/chen-renovation-thumbnail.png",
+      "url": "from-classic-to-contemporany"
+    },
+    {
+      "id": "03",
+      "title": "total main floor makeover",
+      "img": "/images/schafer-renovation-thumbnail.png",
+      "url": "total-main-floor-makeover"
+    },
+    {
+      "id": "04",
+      "title": "tasteful kitchen transformation",
+      "img": "/images/lick-renovation-thumbnail.png",
+      "url": "tasteful-kitchen-transformation"
+    },
+    {
+      "id": "05",
+      "title": "total main floor makeover",
+      "img": "/images/chen-renovation-thumbnail.png"
+    },
+    {
+      "id": "06",
+      "title": "total main floor makeover",
+      "img": "/images/chen-renovation-thumbnail.png"
+    },
+    {
+      "id": "07",
+      "title": "total main floor makeover",
+      "img": "/images/chen-renovation-thumbnail.png"
+    }
+  ]
+}

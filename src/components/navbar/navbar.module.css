@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+  height: 75%;
+  object-fit: contain;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  gap: 1.8em;
+  width: 50%;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+  font-size: 1.125em;
+  font-weight: 600;
+  padding: 0.5em;
+  color: var(--blue);
+  transition: 0.5s ease-in-out;
+}
+
+.contactLink {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1em;
+}
+
+.link:hover {
+  color: black;
+}
+
+.link:last-child {
+  border: 1px solid var(--blue);
+  padding: 0.7em;
+}
+
+.link:last-child:hover {
+  background-color: var(--blue);
+  color: var(--off-white);
+}

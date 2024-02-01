@@ -1,0 +1,44 @@
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.topTitle {
+  font-family: var(--regular-font);
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--title);
+}
+
+.topSpan {
+  color: #ffda27;
+}
+
+.topSubtitle {
+  font-family: var(--serif-font);
+  font-weight: 400;
+}
+
+.link {
+  width: fit-content;
+  text-align: center;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.8em;
+  color: var(--off-white);
+  background-color: var(--blue);
+}
+
+.contactLink {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+}

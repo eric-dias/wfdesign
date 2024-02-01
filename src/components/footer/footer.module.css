@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.block {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1em;
+}
+
+.block:nth-child(3),
+.block:nth-child(4) {
+  align-items: center;
+  width: 20%;
+}
+
+.block h1 {
+  font-size: 1.3rem;
+}
+
+.block p {
+  font-family: var(--serif-font);
+  font-size: 1.3em;
+}
+
+.block a {
+  width: fit-content;
+  color: var(--blue);
+  transition: width 0.5s ease;
+}
+
+.block a:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #edffae 50%);
+}
+
+.linksList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
