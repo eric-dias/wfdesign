@@ -15,14 +15,9 @@ export default function Home() {
     <main className={styles.main}>
       <HomeTopContainer />
       <div className={styles.projectsContainer}>
-      
-         
-        
-  {firstProjects.map((project) => (
+        {firstProjects.map((project) => (
           <ProjectCard project={project} key={project.id} />
         ))}
-
-         
       </div>
     </main>
   );
