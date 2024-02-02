@@ -1,0 +1,25 @@
+/* MobileMenu.module.css */
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* Adapte a cor de fundo conforme necessário */
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.opened {
+  transform: translateX(0);
+}
+
+/* Adapte os estilos conforme necessário */
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
