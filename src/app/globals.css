@@ -8,6 +8,7 @@
   --regular-font: "Montserrat", sans-serif;
   --serif-font: "EB Garamond", serif;
   --blue: #3d7dca;
+  --yellow: #fffbe9;
   --title: #011e41;
   --off-white: #f2f2f2;
 }
@@ -18,7 +19,7 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }

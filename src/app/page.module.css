@@ -23,6 +23,13 @@
   color: var(--title);
 }
 
+.smallTitle {
+  font-family: var(--regular-font);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--title);
+}
+
 .subtitle {
   font-family: var(--serif-font);
   font-weight: 400;
@@ -35,22 +42,23 @@
 .link {
   width: fit-content;
   text-align: center;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
   color: inherit;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 0.8em;
+  padding: 0.7em 0.9em;
   color: var(--off-white);
   background-color: var(--blue);
 }
 
-.contactLink {
-  display: flex;
-  text-decoration: none;
-  align-items: center;
+.smallLink {
+  font-size: 1.2em;
 }
 
 .icon {
-  font-size: 1.5rem;
+  font-size: inherit;
 }
 
 .projectsContainer {
@@ -75,10 +83,10 @@
 }
 
 .principlesContainer {
-  width: 70%;
+  width: 80%;
   max-width: 1000px;
   height: auto;
-  margin: 100px auto;
+  margin: 80px auto;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -86,8 +94,150 @@
   row-gap: 20px;
 }
 
-@media screen and (width < 1000px) {
+.clientReviewContainer {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px auto;
+  padding: 5em;
+  gap: 1.25em;
+  background: var(--yellow);
+}
+
+.iconQuote {
+  font-size: 3rem;
+  color: var(--blue);
+}
+
+.clientReviewText {
+  width: 90%;
+  font-family: var(--serif-font);
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+}
+
+.clientContainer {
+  height: 150px;
+  display: flex;
+  gap: 1.25em;
+}
+
+.clientContainer {
+  display: flex;
+  align-items: center;
+}
+
+.clientImg {
+  height: 100px;
+}
+
+.clientDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.clientName {
+  font-size: 1.25em;
+}
+
+.botContainer {
+  width: 80%;
+  padding: 2em;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.botContainerImageContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.botImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.botContainerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-left: 4em;
+}
+
+@media screen and (width <= 1000px) and (width >= 700px) {
+  .main {
+    padding: 2em;
+  }
+
   .topContainer {
     width: 80%;
+  }
+
+  .projectsContainer {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .principlesContainer {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .botContainer {
+    width: 100%;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .botContainerImageContainer {
+    height: 250px;
+  }
+}
+
+@media screen and (width <= 700px) {
+  .main {
+    padding: 1em;
+  }
+  .topContainer {
+    width: 80%;
+  }
+
+  .projectsContainer {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .principlesContainer {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .clientReviewContainer {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .botContainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .botContainerImageContainer {
+    height: 200px;
+  }
+
+  .botContainerContent {
+    margin-left: 0;
   }
 }

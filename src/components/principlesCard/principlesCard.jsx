@@ -1,4 +1,4 @@
-import styles from "./PrinciplesCard.module.css";
+import styles from "./principlesCard.module.css";
 
 const PrinciplesCard = ({ principle }) => {
   return (
