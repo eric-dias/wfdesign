@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%; /* ou a altura desejada para seus cards */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 50%;
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  width: 50%;
+  height: 50%;
+  flex: 1;
+  text-align: center;
+}

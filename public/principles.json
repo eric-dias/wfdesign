@@ -1,0 +1,22 @@
+{
+  "principles": [
+    {
+      "id": "01",
+      "title": "Plan",
+      "img": "/images/plan.jpg",
+      "description": "First, we'll listen, answer your questions, and advise on the overall project scope and budget."
+    },
+    {
+      "id": "02",
+      "title": "Design",
+      "img": "/images/design.jpg",
+      "description": "Then, we'll explore what's possible together, and test our decisions to ensure cost alignment."
+    },
+    {
+      "id": "03",
+      "title": "Build",
+      "img": "/images/build.jpg",
+      "description": "Finally, we'll execute the plan, and make sure you're aware of progress every step of the way."
+    }
+  ]
+}
