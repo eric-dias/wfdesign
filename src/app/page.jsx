@@ -3,12 +3,10 @@ import Link from "next/link";
 
 import projectsJson from "../../public/projects.json";
 import principlesJson from "../../public/principles.json";
-
 import ProjectCard from "@/components/projectCard/projectCard";
 
 import { FaArrowRight, FaQuoteLeft } from "react-icons/fa6";
 import PrinciplesCard from "@/components/principlesCard/principlesCard";
-import LinkButton from "@/components/linkButton/linkButton";
 
 export default function Home() {
   //console.log(projects);
