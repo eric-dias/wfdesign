@@ -3,15 +3,14 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  height: 100px;
+  height: 150px;
   margin: 0 auto;
-  padding: 16px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 75%;
 }
 
 .logo img {
@@ -45,6 +44,10 @@
   align-items: center;
 }
 
+.mobileLinks {
+  display: none;
+}
+
 .icon {
   font-size: 1em;
 }
@@ -61,4 +64,14 @@
 .link:last-child:hover {
   background-color: var(--blue);
   color: var(--off-white);
+}
+
+@media screen and (width <= 800px) {
+  .links {
+    display: none;
+  }
+
+  .mobileLinks {
+    display: block;
+  }
 }

@@ -2,8 +2,10 @@ import styles from "./navbar.module.css";
 import Link from "next/link";
 
 import { FaArrowRight } from "react-icons/fa6";
+import MobileNav from "../mobileNav/mobileNav";
 
 const links = [
+  { name: "Home", url: "/" },
   { name: "Services", url: "/services" },
   { name: "Work", url: "/work" },
   { name: "About", url: "/about" },
@@ -30,6 +32,10 @@ const Navbar = () => {
           Start Your Project &nbsp;
           <FaArrowRight className={styles.icon} />
         </Link>
+      </nav>
+
+      <nav className={styles.mobileLinks}>
+        <MobileNav links={links} />
       </nav>
     </div>
   );

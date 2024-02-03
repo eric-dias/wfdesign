@@ -1,4 +1,26 @@
-.container{
-    height: 1000px;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  gap: 5em;
+  padding-bottom: 700px;
+}
+
+.navbar {
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+
+.chapter {
+  padding: 2em;
+  background-color: steelblue;
+  width: 70%;
+  height: 50%;
+}
+
+.menu{
+    width: 30%;
+    height: 50%;
 }
