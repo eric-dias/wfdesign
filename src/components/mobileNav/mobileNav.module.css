@@ -10,7 +10,7 @@
   width: 100%;
   height: fit-content;
   position: absolute; /* Altere para position: absolute */
-  top: 120px; /* Defina um valor para a posição superior */
+  top: 150px; /* Defina um valor para a posição superior */
   right: 0;
   /* right: calc(10% + 16px); Defina um valor para a posição à esquerda */
   z-index: 1000; /* Adicione um valor alto para z-index para garantir que a lista esteja acima dos outros elementos */
