@@ -6,7 +6,14 @@ import { useState } from "react";
 import MenuIcon from "../menuIcon/menuIcon";
 import Link from "next/link";
 
-const MobileNav = ({ links }) => {
+const links = [
+  { name: "Home", url: "/" },
+  { name: "Services", url: "/services" },
+  { name: "Work", url: "/work" },
+  { name: "About", url: "/about" },
+];
+
+const MobileNav = () => {
   const [isMenuOpen, setisMenuOpen] = useState(false);
 
   const handleToggle = () => {
@@ -25,7 +32,6 @@ const MobileNav = ({ links }) => {
             {link.name}
           </Link>
         ))}
-
       </div>
 
       <div className={styles.btnContainer} onClick={handleToggle}>

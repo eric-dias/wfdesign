@@ -35,7 +35,7 @@ const Navbar = () => {
       </nav>
 
       <nav className={styles.mobileLinks}>
-        <MobileNav links={links} />
+        <MobileNav />
       </nav>
     </div>
   );
