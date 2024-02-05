@@ -11,7 +11,7 @@ const Services = () => {
           <p> 246: a batalha decisiva na terra assombrada de shinjuku</p>
         </div>
         <div className={styles.menu}>
-          <MobileNav />
+         
         </div>
       </div>
     </div>

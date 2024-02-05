@@ -28,18 +28,20 @@ const MobileNav = () => {
 
   return (
     <div className={styles.container}>
-      <div
+      <ul
         className={`${styles.linksList} ${
-          isOpen ? styles.opened : styles.closed
+          isOpen ? styles.openedList : styles.closedList
         }`}
         onClick={closeMenu}
       >
         {links.map((link) => (
-          <Link href={link.url} key={link.name} className={styles.linkItem}>
-            {link.name}
-          </Link>
+          <li key={link.name}>
+            <Link href={link.url} className={styles.linkItem}>
+              {link.name}
+            </Link>
+          </li>
         ))}
-      </div>
+      </ul>
 
       <button
         className={`${styles.menu} ${isOpen ? styles.opened : ""}`}

@@ -9,12 +9,12 @@
 .linksList {
   width: 100%;
   height: fit-content;
-  position: absolute; /* Altere para position: absolute */
-  top: 150px; /* Defina um valor para a posição superior */
+  position: absolute; 
+  top: 160px; /* Altura da Navbar + 10px de margem */
   right: 0;
-  /* right: calc(10% + 16px); Defina um valor para a posição à esquerda */
-  z-index: 1000; /* Adicione um valor alto para z-index para garantir que a lista esteja acima dos outros elementos */
-  border: 1px solid rgb(255, 0, 0);
+  transform: translateY(-200%);
+  transition: transform .3s ease-in-out;
+  z-index: 1000;
 }
 
 .linkItem {
@@ -22,8 +22,12 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 1em;
-  background-color: var(--blue);
-  color: var(--off-white);
+  background-color: var(--off-white);
+  color:var(--title);
+}
+
+.openedList{
+  transform: translateY(0);
 }
 
 .btnContainer {
@@ -32,6 +36,7 @@
 
 .opened {
   display: block;
+  transform: translateY(0);
 }
 
 .closed {
