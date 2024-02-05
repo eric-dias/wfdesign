@@ -203,10 +203,11 @@
 
 @media screen and (width <= 700px) {
   .main {
-    padding: 1em;
+    padding: 0;
   }
+
   .topContainer {
-    width: 80%;
+    width: 90%;
   }
 
   .projectsContainer {
