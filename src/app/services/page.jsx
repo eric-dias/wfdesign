@@ -7,9 +7,7 @@ const Services = () => {
     <div className={styles.container}>
       <h1>Services</h1>
       <div className={styles.navbar}>
-        <div className={styles.chapter}>
-          <p> 246: a batalha decisiva na terra assombrada de shinjuku</p>
-        </div>
+        <p>To be done.</p>
         <div className={styles.menu}>
          
         </div>
